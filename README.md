@@ -9,9 +9,9 @@ The application we will be deploying is an alternative UI for Hacker News.
 
 In this demo, we will be deploying to the following providers. Based on how fast you are, you can pick as many as you want:
 
- - Vercel
- - Netlify
- - AWS Amplify
+ - [Vercel](https://vercel.com)
+ - [Netlify](https://netlify.com)
+ - [AWS Amplify](https://aws.amazon.com/amplify/)
 
 ### Deploying
 
