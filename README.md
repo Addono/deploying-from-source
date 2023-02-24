@@ -17,25 +17,38 @@ In this demo, we will be deploying to the following providers. Based on how fast
 
 1. Fork [this repo](https://github.com/Addono/nextjs-hackernews) from GitHub into your personal organisation
 2. Setup deployment from GitHub
-   - Vercel
+
+   - **Vercel**
+
      1. Login or register at https://vercel.com
      2. “Add new …” > “Project” > “Import from Git” > Select forked repo from GitHub
-   - Netlify
+
+   - **Netlify**
+
      1. Login or register at https://app.netlify.com/
      2. “Add new site” > “Import an existing project” > “GitHub” > Select forked repo
-   - AWS Amplify
+
+   - **AWS Amplify**
+
      1. Login to AWS Console, details can be found at https://intra.eficode.com/display/ITSEC/Accessing+Eficode%27s+test+AWS+accounts
      2. Navigate to AWS Amplify page (easiest to use the search bar at the top)
      3. “Get Started” > “Host a web-app” > “GitHub” > Select forked repo > Click “Next” on all defaults > “Safe and deploy”
      4. (After you’re done) Delete the Amplify App
-3. (Optional) Configure a custom domain
-   - Vercel
+
+3. _(Optional)_ Configure a custom domain
+
+   - **Vercel**
+
      1. Open the settings of your site, it will be under `https://vercel.com/{USERNAME}/nextjs-hackernews/settings`.
      2. In the left-hand panel select "Domains", then add a domain through the form. You can pick either one you control yourself, or pick a `somethingyouwant.vercel.app`. For your own domains, you will have to follow the instructions to configure correct DNS entries.
-   - Netlify
+
+   - **Netlify**
+
      1. Go to "Site settings" > "Domain management" > "Domains"
      2. Either change the `somethingyouwant.netlify.app` domain which is already configured, or add a new custom domain you manage yourself.
-   - AWS Amplify
+
+   - **AWS Amplify**
+
      1. Go to "App settings" > "Domain management" and click "Add domain"
      2. Select a domain or subdomain you want
      3. Follow the instructions on setting up the DNS configuration, if you're using a domain which is already in Route53 then AWS will be able to do this for you.
