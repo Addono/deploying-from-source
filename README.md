@@ -92,10 +92,4 @@ Let's see what we now have:
       - Run a test by clicking "Analyze page load"
 -->
 
-<!--
-
-Deploy Realworld Redwood app
-
-1. Fork repo from GitHub
-
--->
+> Ready for another challenge? Next up, there's [instructions](./redwood-app.md) on how to deploy a Redwood app as a container to Fly.io.
