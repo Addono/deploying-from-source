@@ -82,8 +82,8 @@ Let's see what we now have:
     - Cache misses / Cold starts
     - Deployment region: Can you see from the request duration one location all requests go to.
   - For reference, compare your deployments to:
-    - https://news.ycombinator.com
-    - https://hacker-news.firebaseio.com
+    - [news.ycombinator.com](https://tools.bunny.net/http-test?query=https://news.ycombinator.com/)
+    - [hacker-news.firebaseio.com](https://tools.bunny.net/http-test?query=https://hacker-news.firebaseio.com)
 
 <!--
     - But, does this actually matter? Most browser's come with build-in website performance checking tools. In Chrome that would be Lighthouse.
