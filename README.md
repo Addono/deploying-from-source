@@ -3,7 +3,7 @@
 ## Modern web-app
 
 For this exercise, we will be deploying a semi-static web-app directly from our source-control in GitHub to various providers. 
-The application we will be deploying is an alternative UI for Hacker News.
+The application we will be deploying is an alternative UI for [Hacker News](https://news.ycombinator.com/).
 
 ![Screenshot](./imgs/hn-netlify.png)
 
