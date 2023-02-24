@@ -57,18 +57,19 @@ In this demo, we will be deploying to the following providers. Based on how fast
 
 Let's see what we now have:
 
-- Navigate around the website to see what we have.
+- **User experience and features**
 
-  - Open up the network console to see what's happening under the hood
-  - Go to `/api/hello` as an example of how besides just a static-site deployment we also have deployed server-side logic
+  - Start by clicking around the website a bit.
+  - Open up the network console to see what's happening under the hood.
+  - Go to `/api/hello` as an example of how besides just a static-site deployment we also have deployed server-side logic.
 
-- What would the development flow look like?
+- **Developer experience**. What would the development flow look like?
 
   The default behaviour will differ a bit between vendors:
 
-  - Vercel will deploy every branch and commit,
-  - Netlify every PR, and
-  - AWS Amplify only on our `main` branch. However with additional configuration it can also deploy every branch.
+  - Vercel will deploy every branch and commit, ...
+  - Netlify every PR, and ...
+  - AWS Amplify only on our `main` branch. _(With additional configuration Amplify can also deploy on every branch.)_
 
   Let's see what we got out of the box and make some change to the application:
 
@@ -77,10 +78,10 @@ Let's see what we now have:
   3. Observe the GitHub integration doing it's work in the comments of your PR.
   4. Merge in your PR and see how long it takes for your changes to propegate.
 
-- Performance comparison
+- **Performance comparison**
   - Let's look into some global latency characteristics of our website, the following tool will measure the request duration from various points across the globe: https://tools.bunny.net/http-test. Try to see if you can pick up on:
     - Cache misses / Cold starts
-    - Deployment region: Can you see from the request duration one location all requests go to.
+    - Deployment region: Can you see from the request duration one location all requests go to?
   - For reference, compare your deployments to:
     - [news.ycombinator.com](https://tools.bunny.net/http-test?query=https://news.ycombinator.com/)
     - [hacker-news.firebaseio.com](https://tools.bunny.net/http-test?query=https://hacker-news.firebaseio.com)
