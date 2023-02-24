@@ -11,7 +11,7 @@ repository:
   #homepage: 
 
   # Either `true` to make the repository private, or `false` to make it public.
-  private: true
+  private: false
 
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
