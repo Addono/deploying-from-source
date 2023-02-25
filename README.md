@@ -15,7 +15,7 @@ In this demo, we will be deploying to the following providers. Based on how fast
 
 ### Deploying
 
-1. Fork [this repo](https://github.com/Addono/nextjs-hackernews) from GitHub into your personal organisation
+1. Fork the [`nextjs-hackernews` repo](https://github.com/Addono/nextjs-hackernews)
 2. Setup deployment from GitHub
 
    - **Vercel**
