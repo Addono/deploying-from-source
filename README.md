@@ -67,9 +67,9 @@ Let's see what we now have:
 
   The default behaviour will differ a bit between vendors:
 
-  - Vercel will deploy every branch and commit, ...
-  - Netlify every PR, and ...
-  - AWS Amplify only on our `main` branch. _(With additional configuration Amplify can also deploy on every branch.)_
+  - **Vercel** will deploy every branch and commit
+  - **Netlify** every PR
+  - **AWS Amplify** only your default branch, so in most cases either `master` or `main`. _(With additional configuration Amplify can also deploy on every branch.)_
 
   Let's see what we got out of the box and make some change to the application:
 
