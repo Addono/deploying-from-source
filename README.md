@@ -30,7 +30,7 @@ In this demo, we will be deploying to the following providers. Based on how fast
 
    - **AWS Amplify**
 
-     1. Login to AWS Console, details can be found at https://intra.eficode.com/display/ITSEC/Accessing+Eficode%27s+test+AWS+accounts
+     1. Login to AWS Console
      2. Navigate to AWS Amplify page (easiest to use the search bar at the top)
      3. “Get Started” > “Host a web-app” > “GitHub” > Select forked repo > Click “Next” on all defaults > “Safe and deploy”
      4. (After you’re done) Delete the Amplify App
